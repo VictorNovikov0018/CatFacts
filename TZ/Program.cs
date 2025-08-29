@@ -41,6 +41,7 @@ namespace TZ
 
                 Console.WriteLine("\nСамый короткий факт с последней страницы:");
                 Console.WriteLine(shortestFact);
+                Console.ReadKey();
             }
         }
     }
@@ -71,3 +72,4 @@ public class Fact
     public string fact { get; set; }
     public int length { get; set; }
 }
+
